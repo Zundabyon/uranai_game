@@ -1,0 +1,2 @@
+echo "venv/" > ../savedata_ai/.dockerignore
+echo "__pycache__/" >> ../savedata_ai/.dockerignore
