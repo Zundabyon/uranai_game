@@ -1,2 +1,3 @@
-echo ".env" >> .gitignore
-echo "venv/" >> .gitignore
+.env
+venv/
+__pycache__/
