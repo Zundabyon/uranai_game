@@ -90,3 +90,8 @@ def fortune(request: FortuneRequest):
     )
 
     return json.loads(message.content[0].text)
+# ── ヘルスチェック ──────────────────────────────
+# App ScriptからのスリープGETリクエストを受け取るためのエンドポイント
+@app.get("/health")
+def health():
+    return {"status": "ok"}
